@@ -23,6 +23,10 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# Use spree for e-commerce solution
+gem 'spree', github: 'spree/spree', branch: '3-0-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
+
 # Use rails_12factor for assets compile on heroku
 gem 'rails_12factor', group: :production
 
